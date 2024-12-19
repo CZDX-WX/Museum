@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment1">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.czdxwx.museum.ui.artifact.ArtifactFragment"
+        android:label="fragment_tab1"
+        tools:layout="@layout/fragment_artifact" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.czdxwx.museum.ui.creative.CreativeFragment"
+        android:label="fragment_tab2"
+        tools:layout="@layout/fragment_creative" />
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.czdxwx.museum.ui.cart.CartFragment"
+        android:label="fragment_tab3"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.czdxwx.museum.ui.profile.ProfileFragment"
+        android:label="fragment_tab4"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Museum</string>
+    <string name="api_base_url">https://your-cloud-server.com/api/</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="world_history_museum">World History Museum</string>
+    <string name="tab1">文物展示</string>
+    <string name="tab2">文创</string>
+    <string name="tab3">购物车</string>
+    <string name="tab4">个人信息</string>
+    <string name="tip"><u>没有帐户？现在注册</u></string>
+    <string name="email">Email</string>
+
+
+    <string-array name="role_options">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+</resources>
